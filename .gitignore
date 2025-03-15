@@ -1,0 +1,72 @@
+# Python virtual environment
+venv/
+.env/
+.env*/
+
+# Virtual environment configuration files
+*.venv/
+*.pyenv-version
+
+# IDE configuration files
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Python cache files
+.pytest_cache/
+.mypy_cache/
+
+# SQLite database files
+*.db
+*.sqlite3
+*.db-journal
+*.sqlite3-journal
+
+# SQLite configuration files
+*.sql
+*.sqlite
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution and build files
+dist/
+build/
+*.pyz
+*.pyd
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Custom configuration files
+config.py
+settings.py
+
+# Sensitive data files
+secrets.py
+*.key
+*.pem
+*.crt
